@@ -7,4 +7,19 @@
     <bean id="person" class="com.fyang.model.Person">
        <property name="name" value="13456"/>
     </bean>
+
+    <bean id="getBeanTest" class="com.fyang.app.GetBeanTest">
+        <!--<lookup-method name="getBean" bean="teacher"/>-->
+        <lookup-method name="getBean" bean="student"/>
+    </bean>
+
+    <bean id="teacher" class="com.fyang.model.Teacher"/>
+    <bean id="student" class="com.fyang.model.Student"/>
+
+
+    <bean id="testChangeMethod" class="com.fyang.app.TestChangeMethod">
+        <replaced-method name="changeMethod" replacer="testMethodReplacer"/>
+    </bean>
+
+    <bean id="testMethodReplacer" class="com.fyang.app.TestMethodReplacer"/>
 </beans>
