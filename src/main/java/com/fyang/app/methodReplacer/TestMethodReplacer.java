@@ -1,4 +1,4 @@
-package com.fyang.app;
+package com.fyang.app.methodReplacer;
 
 import org.springframework.beans.factory.support.MethodReplacer;
 

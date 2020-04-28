@@ -1,6 +1,6 @@
 package com.fyang.test;
 
-import com.fyang.app.TestChangeMethod;
+import com.fyang.app.methodReplacer.TestChangeMethod;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

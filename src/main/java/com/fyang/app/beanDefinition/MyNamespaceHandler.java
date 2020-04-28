@@ -1,6 +1,5 @@
-package com.fyang.app;
+package com.fyang.app.beanDefinition;
 
-import org.springframework.beans.factory.xml.BeanDefinitionDecorator;
 import org.springframework.beans.factory.xml.NamespaceHandlerSupport;
 
 /**

@@ -17,9 +17,9 @@
     <bean id="student" class="com.fyang.model.Student"/>
 
 
-    <bean id="testChangeMethod" class="com.fyang.app.TestChangeMethod">
+    <bean id="testChangeMethod" class="com.fyang.app.methodReplacer.TestChangeMethod">
         <replaced-method name="changeMethod" replacer="testMethodReplacer"/>
     </bean>
 
-    <bean id="testMethodReplacer" class="com.fyang.app.TestMethodReplacer"/>
+    <bean id="testMethodReplacer" class="com.fyang.app.methodReplacer.TestMethodReplacer"/>
 </beans>

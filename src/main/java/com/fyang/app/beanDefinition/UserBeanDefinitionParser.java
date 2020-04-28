@@ -1,4 +1,4 @@
-package com.fyang.app;
+package com.fyang.app.beanDefinition;
 
 import com.fyang.model.Person;
 import com.fyang.pojo.User;
