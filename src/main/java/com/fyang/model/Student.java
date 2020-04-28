@@ -1,6 +1,6 @@
 package com.fyang.model;
 
-public class Student extends User {
+public class Student extends Person{
 
     @Override
     public void showMe(){

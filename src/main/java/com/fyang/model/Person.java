@@ -11,4 +11,8 @@ public class Person {
 		this.name = name;
 	}
 
+	public void showMe(){
+		System.out.println("i am user!!");
+	}
+
 }

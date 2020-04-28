@@ -1,6 +1,6 @@
 package com.fyang.app;
 
-import com.fyang.model.User;
+import com.fyang.model.Person;
 
 public abstract class GetBeanTest {
 
@@ -8,5 +8,5 @@ public abstract class GetBeanTest {
         this.getBean().showMe();
     }
 
-    public abstract User getBean();
+    public abstract Person getBean();
 }
