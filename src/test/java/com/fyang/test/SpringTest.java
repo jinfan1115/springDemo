@@ -13,10 +13,11 @@ import org.springframework.core.io.Resource;
 public class SpringTest {
 	@Test
 	public void test1() {
-		BeanFactory bf = new XmlBeanFactory(new ClassPathResource("application-config.xml"));
-//		ApplicationContext appcontext = new ClassPathXmlApplicationContext("classpath:application-config.xml");
-//		Person person = appcontext.getBean("person", Person.class);
-        Person person = (Person) bf.getBean("person");
+//		BeanFactory bf = new XmlBeanFactory(new ClassPathResource("application-config.xml"));
+//        Person person = (Person) bf.getBean("person");
+
+		ApplicationContext appcontext = new ClassPathXmlApplicationContext("classpath:application-config.xml");
+		Person person = appcontext.getBean("person", Person.class);
 		System.out.println(person.getName());
 		
 		
